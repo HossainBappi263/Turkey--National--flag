@@ -1,0 +1,45 @@
+*{
+    margin: 0; padding: 0;
+}
+.body{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(228, 8, 8);
+    position: relative;
+    margin: 0   auto;
+    overflow: hidden;
+    
+}
+.whiteside{
+   width: 120px;
+    height: 117px;
+    background-color: white;
+    top: 24%;
+    left: 10%;
+    border-radius: 167px;
+    transform: translate(-50%-50%);
+    position: absolute;
+}
+.red{
+       width: 120px;
+    height: 117px;
+   background-color: rgb(228, 8, 8);
+    top: 24%;
+    left: 17%;
+    border-radius: 167px;
+    transform: translate(-50%-50%);
+    position: absolute
+
+}
+.star{
+   width: 76px;
+    height: 75px;
+    background-color: white;
+    top: 31%;
+    left: 31%;
+    transform: translate(-50%-50%);
+    position: absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+
+}
